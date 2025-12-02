@@ -45,13 +45,13 @@ function createDiceSVG(value) {
   const circles = dots
     .map(
       (dot) =>
-        `<circle cx="${dot.cx}" cy="${dot.cy}" r="10" fill="#4ADE80" ></circle>`
+        `<circle cx="${dot.cx}" cy="${dot.cy}" r="10" fill="#c3bbeaff" ></circle>`
     )
     .join("");
 
   return `
     <svg viewbox="0 0 100 100" class="w-full h-full">
-    <rect width="100" height="100" rx="15" ry="15" fill="#333"></rect>
+    <rect width="100" height="100" rx="15" ry="15" fill="#292b83ff"></rect>
     ${circles}
     </svg>
     `;
